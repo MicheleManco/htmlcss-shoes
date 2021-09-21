@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* nav  */
+.numbers {
+    float: right;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 99;
+}
+ .pages {
+     font-size: 30px;
+     margin-right: 20px;
+     background-color: white;
+     border-radius: 50%;
+     padding: 10px 20px;
+     float: left;
+     list-style: none;
+     cursor: pointer;
+ }
+
+ /* main  */
+ .sfondo {
+     height: 100vh;
+     position: relative;
+ }
+
+ .rosso {
+     background-color: red;
+ }
+
+ .verde {
+     background-color: green;
+ }
+
+ .giallo {
+     background-color: yellow;
+ }
+
+ .titologiallo{
+     color: yellow;
+ }
+
+ .titoloverde {
+     color: green;
+ }
+
+  .product {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+
+ h1 {
+     font-size: 60px;
+ }
