@@ -23,21 +23,26 @@
      cursor: pointer;
  }
 
+ .pages a {
+     color: black;
+     text-decoration: none;
+ }
+
  /* main  */
  .sfondo {
      height: 100vh;
      position: relative;
  }
 
- .rosso {
+ #rosso {
      background-color: red;
  }
 
- .verde {
+ #verde {
      background-color: green;
  }
 
- .giallo {
+ #giallo {
      background-color: yellow;
  }
 
